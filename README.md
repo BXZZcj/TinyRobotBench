@@ -31,7 +31,7 @@ Perhaps in the future, more LLM and Manipulation/Navigation Tasks can be integra
 
 The video bellow display the function of this project (Web UI not shown yet as it's unnecessary):
 
-<video src="https://github.com/BXZZcj/TINYROBOTBENCH/raw/master/.video/demo.mp4" controls="controls"></video>
+<video src="https://github.com/BXZZcj/TINYROBOTBENCH/assets/105377443/cb1b0fd3-fbfa-4f15-a22f-e07f326ba548" controls="controls"></video>
 
 The Web UI is as follows, you can upload images or files, just like ChatGPT-Plus:
 ![Picture Not Found](./.fig/webui.png)
