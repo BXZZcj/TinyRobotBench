@@ -31,10 +31,7 @@ Perhaps in the future, more LLM and Manipulation/Navigation Tasks can be integra
 
 The video bellow display the function of this project (Web UI not shown yet as it's unnecessary):
 
-<video controls>
-  <source src="./.video/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video src="./.video/demo.mp4" controls="controls"></video>
 
 The Web UI is as follows, you can upload images or files, just like ChatGPT-Plus:
 ![Picture Not Found](./.fig/webui.png)
