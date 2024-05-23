@@ -1,0 +1,4 @@
+sapien==2.2.2
+mplib==0.1.1
+numpy==1.23.5
+transforms3d==0.4.1

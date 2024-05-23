@@ -1,0 +1,15 @@
+uvicorn==0.29.0
+requests==2.32.2
+pillow==10.3.0
+fastapi==0.111.0
+transformers==4.41.0
+torch==2.3.0
+accelerate==0.30.1
+optimum==1.19.2
+auto-gptq==0.7.1
+chainlit==0.7.700
+python-docx==1.1.2
+sentence_transformers==2.7.0
+langchain==0.2.0
+langchain_community==0.2.0
+chromadb==0.5.0
