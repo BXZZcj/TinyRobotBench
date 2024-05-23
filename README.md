@@ -1,4 +1,4 @@
-# TINYROBOTBENCH 🦾💡
+# TinyRobotBench 🦾💡
 
 ***LLM Guides Robot Operations***
 
@@ -14,7 +14,7 @@
 ## Motivation
 I am an undergraduate student keen to pursue Robotics/Embodied AI research in the future. As such, Simulation Environment and LLM are essential tools I need to engage with (I'm looking forward to directly play with hardware one day).
 
-So, as a practice and leisure activity, I replicated [TYNYROBOTBENCH](https://zhuanlan.zhihu.com/p/667452905), thanks to [@东林钟声](https://www.zhihu.com/people/dong-lin-zhong-sheng-76).
+So, as a practice and leisure activity, I replicated [TinyRobotBench](https://zhuanlan.zhihu.com/p/667452905), thanks to [@东林钟声](https://www.zhihu.com/people/dong-lin-zhong-sheng-76).
 
 Although this project is quite toy 😂, I find it helpful for a beginner like me.
 
