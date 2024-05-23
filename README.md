@@ -77,14 +77,14 @@ chmod +x manipulate/install.sh
 
 Now assuming you have already upload the llm_server folder to the remote server and place the manipulate folder locally, and installed the dependencies.
 
-### Configure LLM
+- Configure LLM
 1. Download a LLM from Hugging Face and upload it to the remote server, for example, ```llava-v1.6-vicuna-7b```
 2. Add the folder path of ```llava-v1.6-vicuna-7b``` to the ```llm_model_dict["llava-v1.6-vicuna-7b"]["local_model_path"]``` in ```path_to_llm_server/config/model_config.py``` 
 3. **Optional**: Change the ```model_port``` value in ```path_to_llm_server/config/network_config.py``` to select a server port where you want to publish the LLM API. The default port is 6006.
 4. Run the command ```python path_to_llm_server\llm\server.py llava-v1.6-vicuna-7b``` to publish the LLM API!
 5. **Optional**: Run the command ```chainlit run path_to_llm_server\web_ui\chainlit_chat.py --port port``` to open the ChatBot Web UI, but it is not neccessary for this demo of LLM guiding robot operations.
 
-### Configure Robot
+- Configure Robot
 1. Replace the the ```url``` variable in the ```path_to_manipulate/request_llm_server.py``` with the URL published by the server, for example, ```https://u102232-8229-b10afc7e.westb.seetacloud.com:8443/```
 2. Run the command ```python path_to_manipulate/request_llm_server.py query```, where ```query``` is the command you want to feed to the LLM, for example:
     ```
@@ -136,7 +136,7 @@ Now assuming you have already upload the llm_server folder to the remote server 
     ```
     Then normally run the command```python path_to_manipulate/request_llm_server.py query```
 
-### Then you can see the Robot performing task
+- Then you can see the Robot performing task
 
 <br>
 
