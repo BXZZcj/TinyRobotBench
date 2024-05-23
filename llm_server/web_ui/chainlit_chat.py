@@ -1,14 +1,3 @@
-import sys
-import os
-# 获取当前脚本文件的绝对路径
-script_path = os.path.abspath(__file__)
-# 获取当前脚本的父目录的父目录（即 config 和 llm 所在的目录）
-project_dir = os.path.dirname(os.path.dirname(script_path))
-# 将 project_dir 添加到 sys.path
-if project_dir not in sys.path:
-    sys.path.append(project_dir)
-
-
 import chainlit as cl
 from chainlit.input_widget import Select, Slider
 from reasoner.chainlit_reasoner import ChainlitReasoner
