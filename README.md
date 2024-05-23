@@ -1,4 +1,4 @@
-# TINYROBOTBENCH
+# TINYROBOTBENCH 🦾💡
 
 ***LLM Guides Robot Operations***
 
