@@ -122,7 +122,7 @@ class ChainlitReasoner:
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
         splits = text_splitter.split_documents(docs)
         #document vectorstore
-        embedding_function=SentenceTransformerEmbeddings(model_name=embedding_model_dict['m3e-base'])
+        embedding_function=SentenceTransformerEmbeddings(model_name=embedding_model_dict[selected_embedding_model])
         
         vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_function)
         #document retrieve
