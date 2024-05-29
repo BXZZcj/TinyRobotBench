@@ -56,6 +56,8 @@ This project currently uses a simple grasping task demo to go through the entire
 
 When I run this project myself, I just upload the llm_server folder tp a headless remote server (with an Nvidia GPU), and place the manipulate folder on my local computer.
 
+**Notice**: If you just want to request the OpenAI LLM API or something like it, you can simply adjust the ```request_llm_server.py``` script, and skip the following sections on **Installation** and **Configuration** of the remote server LLM API. Moreover, the ```request_llm_server.py``` script is simple and straightforward, so don't worry about making any adjustments to it.
+
 On the remote server, just run the command:
 ```
 chmod +x path_to_llm_server/install.sh
