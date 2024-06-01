@@ -60,5 +60,5 @@ else:
 #         move_tool(box_position)
 #         ungrasp()"""
 
-execute="/home/jiechu/Data/TinyRobotBench/manipulate/tasks/exec_llm_code.py"
+execute="./manipulate/tasks/exec_llm_code.py"
 subprocess.run(['python', execute, llm_generated_func])
